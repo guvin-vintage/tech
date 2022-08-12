@@ -10,12 +10,16 @@
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <title>KHANHUY - TECH</title>  <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 <body onload="init()">
    
@@ -56,7 +60,7 @@
         </div>
     </section>
     <div class="main">
-        <h3 style="text-align: center;color:white;margin-bottom: 10px;">8/10/2022</h3>
+        <h3 style="text-align: center;color:white;margin-bottom: 10px" class="day">8/10/2022</h3>
         <h1 style="background-color:#00233e;color:white">FEATURES</h1>
         <div class="features-content">
             <div class="content1">
@@ -249,29 +253,33 @@
         <h1 style="text-align:center; color:white;background-color:indianred">UPCOMING PHONES 2022 <i class="fa-solid fa-fire"></i></h1>
 
         <div class="upcoming-phones">
-            <div class="upcoming-phone">
-                <div>
+            <figure class=" upcoming-phone">
                 <img src="images/2-1660191352-243-width740height555.jpg">
-                </div>
-            </div>
+                <figcaption>
+                  <h3>IPHONE</h3>
+                </figcaption>
+              </figure>
 
-            <div class="upcoming-phone">
-                <div>
+              <figure class="c4-izmir upcoming-phone">
                 <img src="images/lancamento-do-galaxy-fold-samsung-anuncia-seu-primeiro-celular-dobravel-photo776162467-44-5-2d.jpg">
-                </div>
-            </div>
+                <figcaption >
+                  <h3>SAMSUNG</h3>
+                </figcaption>
+              </figure>
 
-            <div class="upcoming-phone">
-                <div>
+              <figure class="c4-izmir upcoming-phone">
                 <img src="images/google-pixel-7-pro-leaked-render-1_1280x720-800-resize.jpg">
-                </div>
-            </div>
+                <figcaption>
+                  <h3>GOOGLE PIXEL</h3>
+                </figcaption>
+              </figure>
 
-            <div class="upcoming-phone">
-                <div>
+              <figure class="c4-izmir upcoming-phone">
                 <img src="images/xiaomimix5dudoansesohuucumcameraphiasauvathietkemanhinhtranvien_1280x720-800-resize.jpg">
-                </div>
-            </div>
+                <figcaption>
+                  <h3>XIAOMI</h3>
+                </figcaption>
+              </figure>
         </div>
         <div class="ads-latests">
 
@@ -280,7 +288,7 @@
 
         <div class="latest">
             <div class="day-section">
-                <p>August, 5, 2022</p>
+                <p class="day">August, 5, 2022</p>
             </div>
             <div class="content-section">
                 <h2>Hunting for Voter Fraud, Conspiracy Theorists Organize ‘Stakeouts’</h2>
@@ -296,7 +304,7 @@
 
         <div class="latest">
             <div class="day-section">
-                <p>August, 5, 2022</p>
+                <p class="day">August, 5, 2022</p>
             </div>
             <div class="content-section">
                 <h2>Justice Dept. Said to Conduct New Interviews in Inquiry Into Google’s Ad Tech</h2>
@@ -312,7 +320,7 @@
 
         <div class="latest">
             <div class="day-section">
-                <p>August, 5, 2022</p>
+                <p class="day">August, 5, 2022</p>
             </div>
             <div class="content-section">
                 <h2>Coinbase Reports 63 Percent Drop in Revenue Amid Industry Slump</h2>
@@ -328,7 +336,7 @@
 
         <div class="latest">
             <div class="day-section">
-                <p>August, 5, 2022</p>
+                <p class="day">August, 5, 2022</p>
             </div>
             <div class="content-section">
                 <h2>Ford Raises Prices of F-150 Lightning Electric Truck, Citing Rising Material Costs</h2>
@@ -344,7 +352,7 @@
 
         <div class="latest">
             <div class="day-section">
-                <p>August, 5, 2022</p>
+                <p class="day">August, 5, 2022</p>
             </div>
             <div class="content-section">
                 <h2>Treasury Dept. blacklists crypto platform used in money laundering.</h2>
@@ -358,6 +366,10 @@
             </div>
            
         </div>
+
+    </div>
+    <div>
+        <a href="javascript:," id="gototop"><i class="fa-solid fa-angle-up"></i></a>
 
     </div>
 
@@ -419,5 +431,6 @@
     </footer>
 
     <script src="tech.js"></script>
+  
 </body>
 </html>

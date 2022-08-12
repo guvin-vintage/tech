@@ -427,7 +427,7 @@ section
 .upcoming-phone > div > img 
 {
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     object-fit: cover;
     height: 15rem;
 }
@@ -546,5 +546,19 @@ footer > p
     text-align: center;
     font-size: large;
     padding-bottom: 10px;
+}
+/*go to top*/
+a#gototop
+{
+    text-decoration: none;
+    display:block;
+    padding: 10px 20px;
+    background:linear-gradient(#142850,#27496D,#0C7B93  ,#00A8CC);
+    color :white;
+    position: fixed;
+    right:0px;
+    bottom: 15px;
+    z-index: 9999;
+    border-radius: 5px;
 }
 
