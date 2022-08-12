@@ -12,9 +12,9 @@
     align-items: center;
     min-height: 50rem;
     background-color: #111;
-    display:none;
     z-index: 9;
     animation: hienra 5s ease-in-out ;
+    display:none;
 }
 @keyframes hienra {
     0%{

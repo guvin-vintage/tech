@@ -12,15 +12,21 @@ function init()
     })
 }
 $(document).ready(function() {
+
+    $("header").hide();
+
     $(".main").hide();
     $(".section").hide();
     $("footer").hide();
+
     $(".container-scan").show(function() {
         setTimeout(function() {
             $(".container-scan").hide()
             $(".main").show()
             $(".section").show();
             $("footer").show();
+            $("header").show();
+
 
         },4500)
         
