@@ -10,7 +10,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    min-height: 50rem;
+    height: 45rem;
     background-color: #111;
     z-index: 9;
     animation: hienra 5s ease-in-out ;
