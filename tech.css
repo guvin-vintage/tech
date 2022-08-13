@@ -504,6 +504,7 @@ footer > h2
     color:white;
     text-align: center;
     padding: 10px;
+    margin-top: 0;
 }
 .footer-content
 {
@@ -546,6 +547,8 @@ footer > p
     text-align: center;
     font-size: large;
     padding-bottom: 10px;
+    margin-bottom:0;
+
 }
 /*go to top*/
 a#gototop
