@@ -5,6 +5,38 @@
      box-sizing: border-box;
      
 }
+
+/*SEARCH*/
+.search-boxes
+{
+   display:flex;
+   justify-content:right;
+}
+.box 
+{
+    height: 30px;
+    display:flex;
+    cursor: pointer;
+    padding: 10px 10px;
+    background: white;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgb(0,0,0,0.3);
+}
+.box:hover .input 
+{
+    width: 200px;
+}
+.box .input 
+{
+    width: 0;
+    outline: none;
+    border: none;
+    transition: 0.8s ease;
+    background: transparent;
+
+}
+
 .container-scan
 {
     display:flex;
