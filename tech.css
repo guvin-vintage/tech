@@ -42,7 +42,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 46rem;
+    height: 48rem;
     background-color: #111;
     z-index: 9;
     animation: hienra 5s ease-in-out ;
@@ -246,7 +246,7 @@ section
 }
 .features-content h4
 {
-    color:white;
+    color:lightgray;
     margin: 10px 0;
 
 }
@@ -310,6 +310,7 @@ section
 {
     margin: 10px 0 10px 0;
     font-size: larger;
+    color:lightgray;
 }
 .second-content-1 > div 
 {
@@ -340,6 +341,7 @@ section
 {
     padding-left: 10px;
     margin-top: 10px;
+    color:lightgray
 }
 .second-content-2-items h2
 {
