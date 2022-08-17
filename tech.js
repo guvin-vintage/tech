@@ -113,6 +113,44 @@ $(document).ready(function() {
             scrollTop:0
         },2000)
     })
+    /*SEARCH*/
+    $(".box ").click(function ( ){
+        $(".box .input ").css({
+            "width":"200px"
+        })
+      })
+     $(".box .input").change(function() {
+        $(".box .input ").css({
+            "width":"0"
+        })
+     })
+    
+
+
+     var topics = ["World","War","Us","News","game", "movies"]
+  $("#search").keyup(function () {
+
+    let text = $(this).val().toLowerCase();
+    let h = ""
+    for ( let c of topics)
+    {
+        if(c.toLowerCase().indexOf(text) >=0 )
+        {
+            h+= ` <li><a href="javascript:;">${c}</a></li>`
+        }
+        if(h != "")
+            {
+                $("#list").html(h);
+                $("#list").show()
+            }
+           $("#list").on("click", "a", function() {
+            $(".input").val($(this).text());
+            $("#list").hide()
+
+           }) 
+
+    }
+  })
 })
 
    
