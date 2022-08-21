@@ -61,15 +61,18 @@
 
 
 .container-scan
-{
+{   
+    position: fixed;
+    bottom: 0;
+    top:0;
+    left: 0;
+    right: 0;
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 48rem;
     background-color: #111;
-    z-index: 9;
+    z-index: 9999;
     animation: hienra 5s ease-in-out ;
-    display:none;
 }
 @keyframes hienra {
     0%{
@@ -170,6 +173,11 @@
 body 
 {
     background: linear-gradient(#2b1055,#7597de);
+}
+/*LOAD*/
+.preloading
+{
+    display: none;
 }
 header 
 {

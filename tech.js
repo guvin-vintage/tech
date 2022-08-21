@@ -13,27 +13,7 @@ function init()
 }
 $(document).ready(function() {
 
-    $("header").hide();
-
-    $(".main").hide();
-    $(".section").hide();
-    $("footer").hide();
     
-
-    $(".container-scan").show(function() {
-        setTimeout(function() {
-            $(".container-scan").hide()
-            $(".main").show()
-            $(".section").show();
-            $("footer").show();
-            $("header").show();
-
-
-        },4500)
-        
-
-    })
-
     $(".upcoming-phone").addClass("c4-izmir c4-border-bottom-left c4-image-rotate-right c4-gradient-bottom-right")
     $("figcaption").addClass("c4-layout-bottom-left");
     
@@ -150,6 +130,16 @@ $(document).ready(function() {
            }) 
 
     }
+  })
+
+   /*LOAD*/
+   window.addEventListener("load",function() {
+    var loader = document.querySelector(".container-scan")
+    this.setTimeout(function() {
+        setTimeout(function () {
+            loader.style="display:none;"
+        },1000)
+    },1000)
   })
 })
 
