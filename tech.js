@@ -136,10 +136,8 @@ $(document).ready(function() {
    window.addEventListener("load",function() {
     var loader = document.querySelector(".container-scan")
     this.setTimeout(function() {
-        setTimeout(function () {
-            loader.style="display:none;"
-        },1000)
-    },1000)
+        loader.style="display:none;"
+    },2000)
   })
 })
 
